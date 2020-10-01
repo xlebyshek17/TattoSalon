@@ -1,0 +1,707 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b0a19e05-8e18-4177-83d0-45f9ad7ebe11" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shop/tests/test_forms.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/shop/forms.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="40" lean-forward="true" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+              <folding>
+                <element signature="e#24#48#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shop/tests/test_models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1394">
+              <caret line="90" column="27" selection-start-line="90" selection-start-column="22" selection-end-line="90" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shop/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="799">
+              <caret line="54" column="19" selection-start-line="54" selection-start-column="19" selection-end-line="54" selection-end-column="19" />
+              <folding>
+                <element signature="e#50#82#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shop/tests/test_validator.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="21" column="58" selection-start-line="21" selection-start-column="58" selection-end-line="21" selection-end-column="58" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+              <folding>
+                <element signature="e#22#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shop/admin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>get_a</find>
+      <find>get_ab</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/shop/tests.py" />
+        <option value="$PROJECT_DIR$/shop/tests/util_tests.py" />
+        <option value="$PROJECT_DIR$/shop/tests/test_urls.py" />
+        <option value="$PROJECT_DIR$/shop/a.py" />
+        <option value="$PROJECT_DIR$/shop/templates/category.html" />
+        <option value="$PROJECT_DIR$/shop/templates/ord.html" />
+        <option value="$PROJECT_DIR$/shop/tests/test_views.py" />
+        <option value="$PROJECT_DIR$/shop/validator.py" />
+        <option value="$PROJECT_DIR$/shop/models.py" />
+        <option value="$PROJECT_DIR$/shop/templates/base.html" />
+        <option value="$PROJECT_DIR$/BNTUshop/wsgi.py" />
+        <option value="$PROJECT_DIR$/Cactus_by/urls.py" />
+        <option value="$PROJECT_DIR$/Cactus_by/settings.py" />
+        <option value="$PROJECT_DIR$/Cactus_by/wsgi.py" />
+        <option value="$PROJECT_DIR$/manage.py" />
+        <option value="$PROJECT_DIR$/shop/tests/test_validator.py" />
+        <option value="$PROJECT_DIR$/BNTUshop/settings.py" />
+        <option value="$PROJECT_DIR$/shop/tests/test_models.py" />
+        <option value="$PROJECT_DIR$/shop/tests/test_forms.py" />
+        <option value="$PROJECT_DIR$/shop/forms.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="605" />
+    <option name="y" value="70" />
+    <option name="width" value="980" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Сactus_by" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Cactus_by" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Сactus_by" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Cactus_by" type="462c0819:PsiDirectoryNode" />
+              <item name="BNTUshop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Сactus_by" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Cactus_by" type="462c0819:PsiDirectoryNode" />
+              <item name="shop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Сactus_by" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Cactus_by" type="462c0819:PsiDirectoryNode" />
+              <item name="shop" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Test: shop.tests.test_models.TestModels" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="Сactus_by" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="shop.tests.test_models.TestModels" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test: shop.tests.test_models.TestModels.test_cart_add_to_cart_add_three_order_expected_4" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="Сactus_by" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="shop.tests.test_models.TestModels.test_cart_add_to_cart_add_three_order_expected_4" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test: shop.tests.test_models.TestModels.test_cart_change_qty_if_cart_is_empty_expected_0" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="Сactus_by" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="shop.tests.test_models.TestModels.test_cart_change_qty_if_cart_is_empty_expected_0" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test: shop.tests.test_models.TestModels.test_cart_remove_from_cart_if_cart_is_empty_expected_0" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="Сactus_by" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="shop.tests.test_models.TestModels.test_cart_remove_from_cart_if_cart_is_empty_expected_0" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test: shop.tests.test_models.TestModels.test_cart_remove_from_cart_remove_one_order_expected_0" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="Сactus_by" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="shop.tests.test_models.TestModels.test_cart_remove_from_cart_remove_one_order_expected_0" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="BNTUshop" type="Python.DjangoServer" factoryName="Django server">
+      <module name="Сactus_by" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="BNTUshop.settings" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\pasha\Python37-32\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="true" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="http://127.0.0.1:8000/" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b0a19e05-8e18-4177-83d0-45f9ad7ebe11" name="Default Changelist" comment="" />
+      <created>1571715504530</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1571715504530</updated>
+      <workItem from="1571715512807" duration="840000" />
+      <workItem from="1573535613504" duration="238000" />
+      <workItem from="1574056122032" duration="262000" />
+      <workItem from="1576421713591" duration="974000" />
+      <workItem from="1576533908728" duration="2757000" />
+      <workItem from="1576594300692" duration="10163000" />
+      <workItem from="1576616429899" duration="3957000" />
+      <workItem from="1576621502281" duration="32252000" />
+      <workItem from="1576694015917" duration="30884000" />
+      <workItem from="1576751489308" duration="6219000" />
+      <workItem from="1577127394455" duration="704000" />
+      <workItem from="1577128153531" duration="63000" />
+      <workItem from="1577141878905" duration="3059000" />
+      <workItem from="1577145095405" duration="2519000" />
+      <workItem from="1577181307145" duration="1144000" />
+      <workItem from="1577190701624" duration="7467000" />
+      <workItem from="1577294137882" duration="4948000" />
+      <workItem from="1577302196003" duration="1960000" />
+      <workItem from="1577350964708" duration="485000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Test__shop_tests_test_models_TestModels - 2019.12.25 at 21h 56m 03s.xml">
+      <configuration name="Test: shop.tests.test_models.TestModels" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__shop_tests_test_models_TestModels - 2019.12.25 at 21h 56m 23s.xml">
+      <configuration name="Test: shop.tests.test_models.TestModels" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__shop_tests_test_models_TestModels - 2019.12.25 at 21h 57m 04s.xml">
+      <configuration name="Test: shop.tests.test_models.TestModels" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__shop_tests_test_models_TestModels_test_cart_change_qty_if_cart_is_empty_expected_0 - 2019.12.25 at 21h 57m 37s.xml">
+      <configuration name="Test: shop.tests.test_models.TestModels.test_cart_change_qty_if_cart_is_empty_expected_0" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__shop_tests_test_models_TestModels - 2019.12.25 at 21h 57m 43s.xml">
+      <configuration name="Test: shop.tests.test_models.TestModels" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__shop_tests_test_models_TestModels_test_cart_remove_from_cart_if_cart_is_empty_expected_0 - 2019.12.25 at 21h 58m 01s.xml">
+      <configuration name="Test: shop.tests.test_models.TestModels.test_cart_remove_from_cart_if_cart_is_empty_expected_0" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__shop_tests_test_models_TestModels_test_cart_remove_from_cart_if_cart_is_empty_expected_0 - 2019.12.25 at 21h 58m 28s.xml">
+      <configuration name="Test: shop.tests.test_models.TestModels.test_cart_remove_from_cart_if_cart_is_empty_expected_0" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__shop_tests_test_models_TestModels - 2019.12.25 at 21h 58m 33s.xml">
+      <configuration name="Test: shop.tests.test_models.TestModels" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__shop_tests_test_models_TestModels - 2019.12.25 at 22h 05m 50s.xml">
+      <configuration name="Test: shop.tests.test_models.TestModels" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__shop_tests_test_models_TestModels - 2019.12.25 at 22h 06m 35s.xml">
+      <configuration name="Test: shop.tests.test_models.TestModels" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="110895000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18758257" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.07275321" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3946252" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32956153" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32956153" />
+      <window_info anchor="bottom" id="manage.py@Сactus_by" order="13" visible="true" weight="0.32956153" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" weight="0.3297587" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/BNTUshop$a.coverage" NAME="a Coverage Results" MODIFIED="1576626896765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/shop" />
+    <SUITE FILE_PATH="coverage/BNTUshop$Test__shop_tests_test_views_TestViews_test_make_order_view_GET.coverage" NAME="Test: shop.tests.test_views.TestViews.test_make_order_view_GET Coverage Results" MODIFIED="1576680508723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/BNTUshop$Test__shop_tests_test_models_TestModels_test_cart_remove_from_cart_remove_first_order_from_cart_expected_1.coverage" NAME="Test: shop.tests.test_models.TestModels.test_cart_remove_from_cart_remove_first_order_from_cart_expected_1 Coverage Results" MODIFIED="1576705193370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/actus_by$Test__shop_tests_test_models_TestModels_test_pre_save_product_slug_if_slug_is_not_empty_expected_bombers.coverage" NAME="Test: shop.tests.test_models.TestModels.test_pre_save_product_slug_if_slug_is_not_empty_expected_bombers Coverage Results" MODIFIED="1577143798205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/actus_by$Test__shop_tests_test_models_TestModels_test_category_get_absolute_url_get_true_url_expected_slash_category_slash_succulent_slash.coverage" NAME="Test: shop.tests.test_models.TestModels.test_category_get_absolute_url_get_true_url_expected_slash_category_slash_succulent_slash Coverage Results" MODIFIED="1577142896402" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/BNTUshop$Test__shop_tests_test_forms_TestForms_test_login_form_valid_data.coverage" NAME="Test: shop.tests.test_forms.TestForms.test_login_form_valid_data Coverage Results" MODIFIED="1576715191813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/actus_by$Test__shop_tests_test_forms_TestForms_test_login_form_valid_data_expected_True.coverage" NAME="Test: shop.tests.test_forms.TestForms.test_login_form_valid_data_expected_True Coverage Results" MODIFIED="1577299173297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/BNTUshop$Test__shop_tests_test_models_TestModels_test_cart_remove_from_cart_remove_second_order_from_cart_expected_1.coverage" NAME="Test: shop.tests.test_models.TestModels.test_cart_remove_from_cart_remove_second_order_from_cart_expected_1 Coverage Results" MODIFIED="1576705345282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/BNTUshop$Test__shop_tests_test_views_TestViews_test_base_view_GET.coverage" NAME="Test: shop.tests.test_views.TestViews.test_base_view_GET Coverage Results" MODIFIED="1576616814581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/BNTUshop$Test__shop_tests_test_models_TestModels.coverage" NAME="Test: shop.tests.test_models.TestModels Coverage Results" MODIFIED="1576666453717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/actus_by$Test__shop_tests_test_models_TestModels_test_category_get_absolute_url_get_false_url_if_slug_is_empty_expected_empty_string.coverage" NAME="Test: shop.tests.test_models.TestModels.test_category_get_absolute_url_get_false_url_if_slug_is_empty_expected_empty_string Coverage Results" MODIFIED="1577142923724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/actus_by$Test__shop_tests_test_models_TestModels_test_image_folder_get_true_image_folder_expected_bomber_hyphen_bntu_slash_bomber_hyphen_dot_jpg.coverage" NAME="Test: shop.tests.test_models.TestModels.test_image_folder_get_true_image_folder_expected_bomber_hyphen_bntu_slash_bomber_hyphen_dot_jpg Coverage Results" MODIFIED="1577143054198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/BNTUshop$tests.coverage" NAME="tests Coverage Results" MODIFIED="1576609218019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/shop" />
+    <SUITE FILE_PATH="coverage/BNTUshop$Test__shop_tests_test_urls_TestUrls_test_category_detail_is_resolved.coverage" NAME="Test: shop.tests.test_urls.TestUrls.test_category_detail_is_resolved Coverage Results" MODIFIED="1576613916271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/BNTUshop$Test__shop_tests_test_views.coverage" NAME="Test: shop.tests.test_views Coverage Results" MODIFIED="1576664723014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/BNTUshop$Test__shop_tests_test_forms_TestForms.coverage" NAME="Test: shop.tests.test_forms.TestForms Coverage Results" MODIFIED="1576756979058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/actus_by$Test__shop_tests_test_models_TestModels_test_pre_save_product_slug_if_slug_is_empty_expected_bomber.coverage" NAME="Test: shop.tests.test_models.TestModels.test_pre_save_product_slug_if_slug_is_empty_expected_bomber Coverage Results" MODIFIED="1577143769508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/BNTUshop$Unittests_for_test_urls_TestUrls_test_category_detail_is_resolved.coverage" NAME="Unittests for test_urls.TestUrls.test_category_detail_is_resolved Coverage Results" MODIFIED="1576611990045" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/shop/tests" />
+    <SUITE FILE_PATH="coverage/actus_by$Test__shop_tests_test_models_TestModels_test_order_get_absolute_url_get_false_url_if_slug_is_None_expected_empty_string.coverage" NAME="Test: shop.tests.test_models.TestModels.test_order_get_absolute_url_get_false_url_if_slug_is_None_expected_empty_string Coverage Results" MODIFIED="1577143388064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/BNTUshop$Test__shop_tests_test_models_TestModels_test_category_get_absolute_url_get_true_url_expected_slash_category_slash_bomber_slash.coverage" NAME="Test: shop.tests.test_models.TestModels.test_category_get_absolute_url_get_true_url_expected_slash_category_slash_bomber_slash Coverage Results" MODIFIED="1576705517421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/actus_by$Test__shop_tests_test_models_TestModels_test_cart_change_qty_if_cart_is_not_empty_expected_1188.coverage" NAME="Test: shop.tests.test_models.TestModels.test_cart_change_qty_if_cart_is_not_empty_expected_1188 Coverage Results" MODIFIED="1577144645891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/actus_by$Test__shop_tests_test_forms_TestForms.coverage" NAME="Test: shop.tests.test_forms.TestForms Coverage Results" MODIFIED="1577299199794" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/BNTUshop$Test__shop_tests_test_validator.coverage" NAME="Test: shop.tests.test_validator Coverage Results" MODIFIED="1576757119258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/actus_by$Test__shop_tests_test_models_TestModels_test_image_folder_get_false_image_folder_if_slug_is_empty_expected_empty_string.coverage" NAME="Test: shop.tests.test_models.TestModels.test_image_folder_get_false_image_folder_if_slug_is_empty_expected_empty_string Coverage Results" MODIFIED="1577143116782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/BNTUshop$Test__shop_tests_test_urls.coverage" NAME="Test: shop.tests.test_urls Coverage Results" MODIFIED="1576757071596" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/actus_by$Test__shop_tests_test_forms_TestForms_test_login_form_invalid_username_expected_False_and_ValidationError.coverage" NAME="Test: shop.tests.test_forms.TestForms.test_login_form_invalid_username_expected_False_and_ValidationError Coverage Results" MODIFIED="1577297686599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/actus_by$Test__shop_tests_test_models_TestModels_test_cart_add_to_cart_add_one_replay_order_expected_1.coverage" NAME="Test: shop.tests.test_models.TestModels.test_cart_add_to_cart_add_one_replay_order_expected_1 Coverage Results" MODIFIED="1577299386002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/actus_by$Test__shop_tests_test_models_TestModels_test_order_get_absolute_url_get_true_url_expected_slash_order_slash_bomber_hyphen_slash.coverage" NAME="Test: shop.tests.test_models.TestModels.test_order_get_absolute_url_get_true_url_expected_slash_order_slash_bomber_hyphen_slash Coverage Results" MODIFIED="1577143280250" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/actus_by$Test__shop_tests_test_models_TestModels_test_cart_add_to_cart_add_two_order_expected_3.coverage" NAME="Test: shop.tests.test_models.TestModels.test_cart_add_to_cart_add_two_order_expected_3 Coverage Results" MODIFIED="1577299860344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/actus_by$Test__shop_tests_test_models_TestModels_test_order_get_absolute_url_get_true_url_expected_slash_order_slash_pakhifitum_slash.coverage" NAME="Test: shop.tests.test_models.TestModels.test_order_get_absolute_url_get_true_url_expected_slash_order_slash_pakhifitum_slash Coverage Results" MODIFIED="1577143369240" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/BNTUshop$Test__shop_tests_test_models.coverage" NAME="Test: shop.tests.test_models Coverage Results" MODIFIED="1576761616476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/actus_by$Test__shop_tests_test_models_TestModels_test_image_folder_get_false_image_folder_if_slug_is_None_expected_empty_string.coverage" NAME="Test: shop.tests.test_models.TestModels.test_image_folder_get_false_image_folder_if_slug_is_None_expected_empty_string Coverage Results" MODIFIED="1577143211958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/actus_by$Test__shop_tests_test_models_TestModels_test_order_get_absolute_url_get_false_url_if_slug_is_empty_expected_empty_string.coverage" NAME="Test: shop.tests.test_models.TestModels.test_order_get_absolute_url_get_false_url_if_slug_is_empty_expected_empty_string Coverage Results" MODIFIED="1577143380585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/actus_by$Test__shop_tests_test_models_TestModels.coverage" NAME="Test: shop.tests.test_models.TestModels Coverage Results" MODIFIED="1577300793564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/actus_by$Test__shop_tests_test_models.coverage" NAME="Test: shop.tests.test_models Coverage Results" MODIFIED="1577141987486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/BNTUshop$Test__shop_tests_test_models_TestModels_test_cart_remove_from_cart_if_cart_is_empty_expected_0.coverage" NAME="Test: shop.tests.test_models.TestModels.test_cart_remove_from_cart_if_cart_is_empty_expected_0 Coverage Results" MODIFIED="1576705358489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/actus_by$Test__shop_tests_test_models_TestModels_test_cart_remove_from_cart_remove_first_order_from_cart_expected_1.coverage" NAME="Test: shop.tests.test_models.TestModels.test_cart_remove_from_cart_remove_first_order_from_cart_expected_1 Coverage Results" MODIFIED="1577144283140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/actus_by$Test__shop_tests_test_models_TestModels_test_cart_remove_from_cart_remove_second_order_from_cart_expected_1.coverage" NAME="Test: shop.tests.test_models.TestModels.test_cart_remove_from_cart_remove_second_order_from_cart_expected_1 Coverage Results" MODIFIED="1577144246646" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/BNTUshop$test_models.coverage" NAME="test_models Coverage Results" MODIFIED="1576609158966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/shop/tests" />
+    <SUITE FILE_PATH="coverage/actus_by$Test__shop_tests_test_models_TestModels_test_category_get_absolute_url_get_true_url_expected_slash_category_slash_bomber_slash.coverage" NAME="Test: shop.tests.test_models.TestModels.test_category_get_absolute_url_get_true_url_expected_slash_category_slash_bomber_slash Coverage Results" MODIFIED="1577142782086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/actus_by$Test__shop_tests_test_models_TestModels_test_cart_add_to_cart_add_one_order_expected_2.coverage" NAME="Test: shop.tests.test_models.TestModels.test_cart_add_to_cart_add_one_order_expected_2 Coverage Results" MODIFIED="1577299270772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/BNTUshop$util_tests.coverage" NAME="util_tests Coverage Results" MODIFIED="1576609353765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/shop/tests" />
+    <SUITE FILE_PATH="coverage/BNTUshop$Test__shop_tests_test_forms_TestForms_test_login_form_valid_no_data.coverage" NAME="Test: shop.tests.test_forms.TestForms.test_login_form_valid_no_data Coverage Results" MODIFIED="1576709952082" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/actus_by$Test__shop_tests_test_models_TestModels_test_image_folder_get_false_image_folder_if_filename_is_empty_expected_empty_string.coverage" NAME="Test: shop.tests.test_models.TestModels.test_image_folder_get_false_image_folder_if_filename_is_empty_expected_empty_string Coverage Results" MODIFIED="1577143233291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/actus_by$Test__shop_tests_test_models_TestModels_test_cart_add_to_cart_add_three_order_expected_4.coverage" NAME="Test: shop.tests.test_models.TestModels.test_cart_add_to_cart_add_three_order_expected_4 Coverage Results" MODIFIED="1577299867517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/BNTUshop$Unittests_in_test_views_py.coverage" NAME="Unittests in test_views.py Coverage Results" MODIFIED="1576617966295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/shop/tests" />
+    <SUITE FILE_PATH="coverage/BNTUshop$Test__shop_tests_test_views_TestViews.coverage" NAME="Test: shop.tests.test_views.TestViews Coverage Results" MODIFIED="1576757146274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/actus_by$Test__shop_tests_test_validator.coverage" NAME="Test: shop.tests.test_validator Coverage Results" MODIFIED="1577141947497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/actus_by$Test__shop_tests_test_models_TestModels_test_cart_change_qty_if_cart_is_empty_expected_0.coverage" NAME="Test: shop.tests.test_models.TestModels.test_cart_change_qty_if_cart_is_empty_expected_0 Coverage Results" MODIFIED="1577300256415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/actus_by$Test__shop_tests_test_models_TestModels_test_image_folder_get_false_image_folder_if_filename_is_None_expected_empty_string.coverage" NAME="Test: shop.tests.test_models.TestModels.test_image_folder_get_false_image_folder_if_filename_is_None_expected_empty_string Coverage Results" MODIFIED="1577143255308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/actus_by$Test__shop_tests_test_validator_TestValidator.coverage" NAME="Test: shop.tests.test_validator.TestValidator Coverage Results" MODIFIED="1577147517394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/actus_by$Test__shop_tests_test_models_TestModels_test_cart_remove_from_cart_if_cart_is_empty_expected_0.coverage" NAME="Test: shop.tests.test_models.TestModels.test_cart_remove_from_cart_if_cart_is_empty_expected_0 Coverage Results" MODIFIED="1577300307586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/actus_by$Test__shop_tests_test_models_TestModels_test_category_get_absolute_url_get_false_url_if_slug_is_None_expected_empty_string.coverage" NAME="Test: shop.tests.test_models.TestModels.test_category_get_absolute_url_get_false_url_if_slug_is_None_expected_empty_string Coverage Results" MODIFIED="1577142955474" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/actus_by$Test__shop_tests_test_models_TestModels_test_cart_remove_from_cart_remove_one_order_expected_0.coverage" NAME="Test: shop.tests.test_models.TestModels.test_cart_remove_from_cart_remove_one_order_expected_0 Coverage Results" MODIFIED="1577299955833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/Python37-32/Lib/site-packages/django/urls/base.py" />
+    <entry file="file://$PROJECT_DIR$/shop/tests/util_tests.py" />
+    <entry file="file://$PROJECT_DIR$/shop/tests.py" />
+    <entry file="file://$USER_HOME$/Python37-32/Lib/site-packages/django/contrib/auth/views.py" />
+    <entry file="file://$USER_HOME$/Python37-32/Lib/site-packages/django/db/models/fields/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/shop/a.py" />
+    <entry file="file://$USER_HOME$/Python37-32/Lib/site-packages/django/conf/__init__.py" />
+    <entry file="file://$USER_HOME$/Python37-32/Lib/site-packages/django/http/response.py" />
+    <entry file="file://$PROJECT_DIR$/shop/tests/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Python37-32/Lib/site-packages/django/db/models/manager.py" />
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/builtins.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="631" selection-start-line="631" selection-end-line="631" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Python37-32/Lib/site-packages/django/test/testcases.py" />
+    <entry file="file://$USER_HOME$/Python37-32/Lib/site-packages/django/core/exceptions.py" />
+    <entry file="file://$PROJECT_DIR$/shop/templates/registration.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/templates/checkout.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/templates/order.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="32" column="39" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/templates/category.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="14" column="178" selection-start-line="14" selection-start-column="178" selection-end-line="14" selection-end-column="178" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/templates/ord.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="32" column="13" lean-forward="true" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/tests/test_urls.py" />
+    <entry file="file://$PROJECT_DIR$/shop/validator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="16" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1260">
+          <caret line="189" column="11" selection-end-line="287" />
+          <folding>
+            <element signature="e#52#91#0" expanded="true" />
+            <element signature="e#487#978#0" />
+            <element signature="e#1019#1523#0" />
+            <element signature="e#1570#1883#0" />
+            <element signature="e#1911#2348#0" />
+            <element signature="e#2398#3025#0" />
+            <element signature="e#3065#3697#0" />
+            <element signature="e#4314#4725#0" />
+            <element signature="e#6381#6586#0" />
+            <element signature="e#6621#7429#0" />
+            <element signature="e#7457#7906#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/tests/test_views.py" />
+    <entry file="file://$PROJECT_DIR$/shop/templates/account.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="22" column="125" selection-start-line="22" selection-start-column="125" selection-end-line="22" selection-end-column="125" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/templates/cart.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="21" column="18" selection-end-line="34" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Python37-32/Lib/site-packages/django/db/models/base.py" />
+    <entry file="file://$PROJECT_DIR$/BNTUshop/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BNTUshop/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BNTUshop/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2200">
+          <caret line="110" column="27" selection-start-line="110" selection-start-column="27" selection-end-line="110" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BNTUshop/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+          <folding>
+            <element signature="e#225#234#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Python37-32/Lib/site-packages/django/contrib/auth/__init__.py" />
+    <entry file="file://$USER_HOME$/Python37-32/Lib/site-packages/django/contrib/auth/models.py" />
+    <entry file="file://$USER_HOME$/Python37-32/Lib/site-packages/django/forms/forms.py" />
+    <entry file="file://$PROJECT_DIR$/shop/tests/test_forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/tests/test_models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1394">
+          <caret line="90" column="27" selection-start-line="90" selection-start-column="22" selection-end-line="90" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="54" column="19" selection-start-line="54" selection-start-column="19" selection-end-line="54" selection-end-column="19" />
+          <folding>
+            <element signature="e#50#82#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/tests/test_validator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="21" column="58" selection-start-line="21" selection-start-column="58" selection-end-line="21" selection-end-column="58" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+          <folding>
+            <element signature="e#22#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="40" lean-forward="true" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+          <folding>
+            <element signature="e#24#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

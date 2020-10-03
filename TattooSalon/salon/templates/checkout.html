@@ -6,14 +6,14 @@
 <table class="table">
 	<tr>
 		<td class='text-center'><strong>Товар</strong></td>
-		<td class='text-center'><strong>Кол-во</strong></td>
+<!--		<td class='text-center'><strong>Кол-во</strong></td>-->
 		<td class='text-center'><strong>Цена</strong></td>
 		<td class='text-center'></td>
 	</tr>
 	{% for item in cart.items.all %}
 		<tr>
 			<td class='text-center'>{{ item.order.title }}</td>
-			<td class='text-center'>{{ item.qty }}</td>
+<!--			<td class='text-center'>{{ item.qty }}</td>-->
 			<td class='text-center'>{{ item.item_total }} BYN</td>
 			<td></td>
 		</tr>

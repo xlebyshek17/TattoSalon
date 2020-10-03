@@ -41,8 +41,6 @@ class ProductManager(models.Manager):
 
 class Order(models.Model):
     category = models.ForeignKey(Category, on_delete=models.CASCADE)
-    # brand = models.ForeignKey(Brand)
-    # color = models.ForeignKey(Color)
     title = models.CharField(max_length=120)
     slug = models.SlugField()
     description = models.TextField()
@@ -63,7 +61,7 @@ class Order(models.Model):
 
 class CartItem(models.Model):
     order = models.ForeignKey(Order, on_delete=models.CASCADE)
-    qty = models.PositiveIntegerField(default=1)
+    #qty = models.PositiveIntegerField(default=1)
     item_total = models.DecimalField(max_digits=9, decimal_places=2, default=0.00)
 
     def __str__(self):
@@ -93,21 +91,21 @@ class Cart(models.Model):
                 cart.save()
         return
 
-    def change_qty(self, qty, item_id):
-        cart = self
-        cart_item = CartItem.objects.get(id=int(item_id))
-        cart_item.qty = int(qty)
-        cart_item.item_total = int(qty) * Decimal(cart_item.order.price)
-        cart_item.save()
-        new_cart_total = 0.00
-        for item in cart.items.all():
-            new_cart_total += float(item.item_total)
-        cart.cart_total = new_cart_total
-        cart.save()
-        return
-
-    def __str__(self):
-        return str(self.id)
+    # def change_qty(self, qty, item_id):
+    #     cart = self
+    #     cart_item = CartItem.objects.get(id=int(item_id))
+    #     cart_item.qty = int(qty)
+    #     cart_item.item_total = int(qty) * Decimal(cart_item.order.price)
+    #     cart_item.save()
+    #     new_cart_total = 0.00
+    #     for item in cart.items.all():
+    #         new_cart_total += float(item.item_total)
+    #     cart.cart_total = new_cart_total
+    #     cart.save()
+    #     return
+    #
+    # def __str__(self):
+    #     return str(self.id)
 
 
 def pre_save_category_slug(instance, *args, **kwargs):

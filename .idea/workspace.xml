@@ -1,0 +1,649 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f6bed7eb-525c-458c-a0ad-55df48373484" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/TattooSalon/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/TattooSalon/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TattooSalon/media/agabus-potatorum/agabus-potatorum.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TattooSalon/media/cacti-in-ceramics-in-size-S/cacti-in-ceramics-in-size-S.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TattooSalon/media/cacti-in-ceramics-in-size-S/cacti-in-ceramics-in-size-S.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TattooSalon/media/cacti-in-ceramics-in-size-S/cacti-in-ceramics-in-size-S_YPQGGKX.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TattooSalon/media/echeverias/echeverias.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TattooSalon/media/hoya-kerry/hoya-kerry.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TattooSalon/media/krassula-hobbit/krassula-hobbit.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TattooSalon/media/lofotsereus-shotta/lofotsereus-shotta.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TattooSalon/media/pakhifitum/pakhifitum.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TattooSalon/media/tefrokaktus-artikulatus/tefrokaktus-artikulatus.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TattooSalon/product_images/Screenshot_45.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TattooSalon/product_images/photo_2019-12-24_00-20-22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TattooSalon/product_images/photo_2019-12-24_00-20-33.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TattooSalon/product_images/photo_2019-12-24_00-20-38.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TattooSalon/product_images/photo_2019-12-24_00-20-43.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TattooSalon/product_images/photo_2019-12-24_00-20-52.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TattooSalon/product_images/photo_2019-12-24_00-20-56.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TattooSalon/product_images/photo_2019-12-24_00-21-01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TattooSalon/product_images/photo_2019-12-24_00-21-05.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TattooSalon/salon/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/TattooSalon/salon/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TattooSalon/salon/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/TattooSalon/salon/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TattooSalon/salon/templates/account.html" beforeDir="false" afterPath="$PROJECT_DIR$/TattooSalon/salon/templates/account.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TattooSalon/salon/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/TattooSalon/salon/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TattooSalon/salon/templates/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/TattooSalon/salon/templates/cart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TattooSalon/salon/templates/category.html" beforeDir="false" afterPath="$PROJECT_DIR$/TattooSalon/salon/templates/category.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TattooSalon/salon/templates/ord.html" beforeDir="false" afterPath="$PROJECT_DIR$/TattooSalon/salon/templates/ord.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TattooSalon/salon/templates/order.html" beforeDir="false" afterPath="$PROJECT_DIR$/TattooSalon/salon/templates/order.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TattooSalon/salon/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/TattooSalon/salon/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TattooSalon/static_in_dev/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/TattooSalon/static_in_dev/css/bootstrap.css" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TattooSalon/salon/forms.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="83" column="15" selection-start-line="83" selection-start-column="15" selection-end-line="83" selection-end-column="15" />
+              <folding>
+                <element signature="e#24#48#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TattooSalon/salon/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="24" selection-start-line="24" selection-end-line="25" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+                <marker date="1602420623258" expanded="true" signature="676:744" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TattooSalon/salon/validator.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="34" column="40" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TattooSalon/salon/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3978">
+              <caret line="241" column="5" selection-start-line="241" selection-start-column="5" selection-end-line="241" selection-end-column="5" />
+              <folding>
+                <element signature="e#52#91#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TattooSalon/salon/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="468">
+              <caret line="139" column="34" lean-forward="true" selection-start-line="139" selection-start-column="34" selection-end-line="139" selection-end-column="34" />
+              <folding>
+                <element signature="e#50#82#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TattooSalon/salon/templates/cart.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+              <folding>
+                <element signature="n#style#0;n#input#0;n#form#0;n#td#1;n#tr#1;n#table#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TattooSalon/salon/admin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+              <folding>
+                <element signature="e#82#114#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TattooSalon/salon/apps.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TattooSalon/salon/templates/registration.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TattooSalon/salon/templates/thank_you.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>redRo</find>
+      <find>Кол-во</find>
+      <find>2019</find>
+      <find>Qty</find>
+      <find>cartitem</find>
+      <find>cart-item-qty</find>
+      <find>qty</find>
+      <find>lorem</find>
+      <find>Description</find>
+      <find>ipsum</find>
+      <find>content</find>
+      <find>order.title</find>
+      <find>description</find>
+      <find>price</find>
+      <find>карзи</find>
+      <find>Самовывоз'</find>
+      <find>change_item_qty</find>
+      <find>способ</find>
+      <find>Самовывоз</find>
+      <find>make_order</find>
+      <find>delivery</find>
+      <find>После оф</find>
+      <find>address</find>
+      <find>cart</find>
+      <find>cart_total</find>
+      <find>Items</find>
+      <find>comments</find>
+      <find>cart.items.all</find>
+      <find>Изменить</find>
+      <find>Carts</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Cactus_by/manage.py" />
+        <option value="$PROJECT_DIR$/Cactus_by/shop/views.py" />
+        <option value="$PROJECT_DIR$/Cactus_by/shop/forms.py" />
+        <option value="$PROJECT_DIR$/Cactus_by/shop/models.py" />
+        <option value="$PROJECT_DIR$/TattooSalon/salon/admin.py" />
+        <option value="$PROJECT_DIR$/TattooSalon/salon/migrations/0005_auto_20191006_0112.py" />
+        <option value="$PROJECT_DIR$/TattooSalon/salon/migrations/0004_auto_20191006_0056.py" />
+        <option value="$PROJECT_DIR$/TattooSalon/salon/templates/checkout.html" />
+        <option value="$PROJECT_DIR$/TattooSalon/salon/migrations/0007_auto_20191006_2150.py" />
+        <option value="$PROJECT_DIR$/TattooSalon/salon/templates/base.html" />
+        <option value="$PROJECT_DIR$/TattooSalon/salon/templates/order.html" />
+        <option value="$PROJECT_DIR$/TattooSalon/salon/templates/category.html" />
+        <option value="$PROJECT_DIR$/TattooSalon/static_in_dev/css/bootstrap.css" />
+        <option value="$PROJECT_DIR$/TattooSalon/salon/urls.py" />
+        <option value="$PROJECT_DIR$/TattooSalon/salon/templates/ord.html" />
+        <option value="$PROJECT_DIR$/TattooSalon/salon/views.py" />
+        <option value="$PROJECT_DIR$/TattooSalon/salon/models.py" />
+        <option value="$PROJECT_DIR$/TattooSalon/salon/templates/account.html" />
+        <option value="$PROJECT_DIR$/TattooSalon/salon/templates/cart.html" />
+        <option value="$PROJECT_DIR$/TattooSalon/salon/forms.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="950" />
+    <option name="width" value="980" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Course project TattoSalon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Course project TattoSalon" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Course project TattoSalon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Course project TattoSalon" type="462c0819:PsiDirectoryNode" />
+              <item name="TattooSalon" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Course project TattoSalon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Course project TattoSalon" type="462c0819:PsiDirectoryNode" />
+              <item name="TattooSalon" type="462c0819:PsiDirectoryNode" />
+              <item name="salon" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Course project TattoSalon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Course project TattoSalon" type="462c0819:PsiDirectoryNode" />
+              <item name="TattooSalon" type="462c0819:PsiDirectoryNode" />
+              <item name="TattooSalon" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Course project Cactus.by" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Cactus_by" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Cactus_by/manage.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.manage" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f6bed7eb-525c-458c-a0ad-55df48373484" name="Default Changelist" comment="" />
+      <created>1601315504112</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601315504112</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21202114" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32956153" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.22206506" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/TattooSalon/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python38-32/Lib/pathlib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="935">
+          <caret line="1193" column="40" selection-start-line="1193" selection-start-column="40" selection-end-line="1193" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python38-32/Lib/threading.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="869" selection-start-line="869" selection-end-line="869" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python38-32/Lib/importlib/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2125">
+          <caret line="126" column="26" selection-start-line="126" selection-start-column="26" selection-end-line="126" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python38-32/Lib/importlib/_bootstrap.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16524">
+          <caret line="972" column="23" selection-start-line="972" selection-start-column="23" selection-end-line="972" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/builtins.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16405">
+          <caret line="974" column="27" selection-start-line="974" selection-start-column="27" selection-end-line="974" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python38-32/Lib/site-packages/django/db/models/query.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6443">
+          <caret line="404" selection-start-line="404" selection-end-line="404" />
+          <folding>
+            <element signature="e#85#96#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python38/site-packages/crispy_forms/templatetags/crispy_forms_filters.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1530">
+          <caret line="100" column="20" selection-start-line="100" selection-start-column="20" selection-end-line="100" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python38-32/Lib/socket.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11594">
+          <caret line="686" column="37" selection-start-line="686" selection-start-column="37" selection-end-line="686" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TattooSalon/db.sqlite3">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="72" selection-start-line="5" selection-start-column="72" selection-end-line="5" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python38-32/Lib/site-packages/django/utils/autoreload.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="935">
+          <caret line="76" selection-start-line="76" selection-end-line="76" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python38-32/Lib/site-packages/django/core/management/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6086">
+          <caret line="374" selection-start-line="374" selection-end-line="374" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python38-32/Lib/site-packages/django/core/management/commands/runserver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1632">
+          <caret line="108" selection-start-line="108" selection-end-line="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TattooSalon/salon/migrations/0005_auto_20191006_0112.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="27" lean-forward="true" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
+          <folding>
+            <element signature="e#74#113#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TattooSalon/salon/migrations/0001_initial.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TattooSalon/salon/migrations/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TattooSalon/salon/migrations/0013_auto_20200929_2230.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TattooSalon/salon/migrations/0012_auto_20200929_1653.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TattooSalon/salon/migrations/0002_brand.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TattooSalon/salon/migrations/0003_product.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TattooSalon/salon/migrations/0010_remove_order_color.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TattooSalon/salon/migrations/0011_auto_20191224_0111.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TattooSalon/salon/migrations/0004_auto_20191006_0056.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
+          <folding>
+            <element signature="e#74#113#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python38-32/Lib/logging/handlers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="118" column="7" lean-forward="true" selection-start-line="118" selection-start-column="7" selection-end-line="118" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python38-32/Lib/site-packages/django/db/backends/sqlite3/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="382" selection-start-line="382" selection-end-line="382" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eComEnv/Lib/site-packages/django/template/defaulttags.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1318">
+          <caret line="1115" column="31" selection-start-line="1115" selection-start-column="31" selection-end-line="1115" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TattooSalon/salon/migrations/0007_auto_20191006_2150.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TattooSalon/salon/templates/category.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="12" column="174" selection-start-line="12" selection-start-column="174" selection-end-line="12" selection-end-column="174" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TattooSalon/static/js/jquery.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TattooSalon/salon/templates/order.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TattooSalon/salon/templates/ord.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TattooSalon/salon/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1663">
+          <caret line="66" column="21" lean-forward="true" selection-start-line="66" selection-start-column="21" selection-end-line="66" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TattooSalon/salon/templates/account.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="68" column="12" lean-forward="true" selection-start-line="68" selection-start-column="12" selection-end-line="68" selection-end-column="12" />
+          <folding>
+            <marker date="1602424206129" expanded="true" signature="2498:2575" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TattooSalon/salon/templates/checkout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="67" lean-forward="true" selection-start-line="8" selection-start-column="67" selection-end-line="8" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TattooSalon/salon/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TattooSalon/TattooSalon/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TattooSalon/TattooSalon/settings.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TattooSalon/TattooSalon/urls.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TattooSalon/salon/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TattooSalon/salon/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="24" selection-start-line="24" selection-end-line="25" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+            <marker date="1602420623258" expanded="true" signature="676:744" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TattooSalon/salon/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3978">
+          <caret line="241" column="5" selection-start-line="241" selection-start-column="5" selection-end-line="241" selection-end-column="5" />
+          <folding>
+            <element signature="e#52#91#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TattooSalon/salon/templates/cart.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+          <folding>
+            <element signature="n#style#0;n#input#0;n#form#0;n#td#1;n#tr#1;n#table#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TattooSalon/salon/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+          <folding>
+            <element signature="e#82#114#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TattooSalon/salon/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TattooSalon/salon/templates/registration.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TattooSalon/salon/templates/thank_you.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TattooSalon/salon/validator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="34" column="40" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TattooSalon/salon/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="83" column="15" selection-start-line="83" selection-start-column="15" selection-end-line="83" selection-end-column="15" />
+          <folding>
+            <element signature="e#24#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TattooSalon/salon/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="139" column="34" lean-forward="true" selection-start-line="139" selection-start-column="34" selection-end-line="139" selection-end-column="34" />
+          <folding>
+            <element signature="e#50#82#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

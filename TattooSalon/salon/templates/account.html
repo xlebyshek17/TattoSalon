@@ -58,11 +58,11 @@
         <p>Имя: {{ item.first_name }}</p>
         <p>Фамилия: {{ item.last_name }}</p>
 		<p>Телефон: {{ item.phone }}</p>
-		<h3>Тип доставки</h3>
-		<p>{% if item.buying_type == 'self' %} Самовывоз {% else %} Доставка {% endif %}</p>
-		<p>{% if item.buying_type == 'delivery' %} {{ item.address }} {% endif %}</p>
+		<h3>Способ оплаты</h3>
+		<p>{% if item.buying_type == 'cart' %} Наличные {% else %} Карта {% endif %}</p>
+		<!--<p>{% if item.buying_type == 'delivery' %} {{ item.address }} {% endif %}</p>-->
 		<h3>Комментарий к заказу</h3>
-		<p>{{ item.comment }}</p>
+		<p>{{ item.comments }}</p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>

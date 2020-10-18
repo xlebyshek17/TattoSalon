@@ -214,7 +214,7 @@ def make_order_view(request):
 		last_name = form.cleaned_data['last_name']
 		phone = form.cleaned_data['phone']
 		buying_type = form.cleaned_data['buying_type']
-		address = form.cleaned_data['address']
+		#address = form.cleaned_data['address']
 		comments = form.cleaned_data['comments']
 		new_order = Ord.objects.create(
 				user=request.user,
@@ -223,7 +223,7 @@ def make_order_view(request):
 				first_name=name,
 				last_name=last_name,
 				phone=phone,
-				address=address,
+				#address=address,
 				buying_type=buying_type,
 				comments=comments
 			)

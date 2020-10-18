@@ -44,6 +44,7 @@ class Order(models.Model):
     title = models.CharField(max_length=120)
     slug = models.SlugField()
     description = models.TextField()
+    #executionTime = models.DecimalField(max_digits=9, decimal_places=2)
     image = models.ImageField(upload_to=image_folder)
     price = models.DecimalField(max_digits=9, decimal_places=2)
     available = models.BooleanField(default=True)
@@ -91,21 +92,21 @@ class Cart(models.Model):
                 cart.save()
         return
 
-    # def change_qty(self, qty, item_id):
-    #     cart = self
-    #     cart_item = CartItem.objects.get(id=int(item_id))
-    #     cart_item.qty = int(qty)
-    #     cart_item.item_total = int(qty) * Decimal(cart_item.order.price)
-    #     cart_item.save()
-    #     new_cart_total = 0.00
-    #     for item in cart.items.all():
-    #         new_cart_total += float(item.item_total)
-    #     cart.cart_total = new_cart_total
-    #     cart.save()
-    #     return
-    #
-    # def __str__(self):
-    #     return str(self.id)
+    def change_qty(self, qty, item_id):
+        cart = self
+        cart_item = CartItem.objects.get(id=int(item_id))
+        cart_item.qty = int(qty)
+        cart_item.item_total = int(qty) * Decimal(cart_item.order.price)
+        cart_item.save()
+        new_cart_total = 0.00
+        for item in cart.items.all():
+            new_cart_total += float(item.item_total)
+        cart.cart_total = new_cart_total
+        cart.save()
+        return
+
+    def __str__(self):
+        return str(self.id)
 
 
 def pre_save_category_slug(instance, *args, **kwargs):
@@ -132,9 +133,9 @@ class Ord(models.Model):
     first_name = models.CharField(max_length=200)
     last_name = models.CharField(max_length=200)
     phone = models.CharField(max_length=20)
-    address = models.CharField(max_length=255)
-    buying_type = models.CharField(max_length=40, choices=(('Самовывоз', 'Самовывоз'),
-                                                           ('Доставка', 'Доставка')), default='Самовывоз')
+    #address = models.CharField(max_length=255)
+    buying_type = models.CharField(max_length=40, choices=(('Наличные', 'Карта'),
+                                                           ('Наличные', 'Карта')), default='Наличные')
     date = models.DateTimeField(auto_now_add=True)
     comments = models.TextField(max_length=3000)
     status = models.CharField(max_length=100, choices=ORDER_STATUS_CHOICES, default='Принят в обработку')

@@ -82,9 +82,9 @@ class OrdForm(forms.Form):
 	name = forms.CharField()
 	last_name = forms.CharField(required=False)
 	phone = forms.CharField()
-	buying_type = forms.ChoiceField(widget=forms.Select(), choices=([("self", "Самовывоз"), ("delivery", "Доставка")]))
+	buying_type = forms.ChoiceField(widget=forms.Select(), choices=([("cash", "Наличные"), ("cart", "Карта")]))
 	date = forms.DateField(widget=forms.SelectDateWidget(), initial=timezone.now())
-	address = forms.CharField(required=False)
+	#address = forms.CharField(required=False)
 	comments = forms.CharField(widget=forms.Textarea, required=False)
 
 	def __init__(self, *args, **kwargs):
@@ -93,10 +93,10 @@ class OrdForm(forms.Form):
 		self.fields['last_name'].label = 'Фамилия'
 		self.fields['phone'].label = 'Контактный телефон'
 		self.fields['phone'].help_text = 'Пожалуйста, указывайте реальный номер телефона, по которому с Вами можно связаться'
-		self.fields['buying_type'].label = 'Способ получения'
-		self.fields['buying_type'].help_text = 'Доставка производится на следующий день после оформелния заказа. Менеджер с Вами предварительно свяжется'
-		self.fields['address'].label = 'Адрес доставки'
-		self.fields['address'].help_text = 'Обязательно указывайте город!'
+		self.fields['buying_type'].label = 'Способ оплаты'
+		#self.fields['buying_type'].help_text = 'Доставка производится на следующий день после оформелния заказа. Менеджер с Вами предварительно свяжется'
+		#self.fields['address'].label = 'Адрес доставки'
+		#self.fields['address'].help_text = 'Обязательно указывайте город!'
 		self.fields['comments'].label = 'Комментарии к заказу'
-		self.fields['date'].label = 'Дата доставки'
-		self.fields['date'].help_text = 'Доставка производится на следующий день после оформелния заказа. Менеджер с Вами предварительно свяжется'
+		self.fields['date'].label = 'Дата сенса'
+		self.fields['date'].help_text = 'После оформления заказа с Вами свяжется менеджер для уточнения деталей'

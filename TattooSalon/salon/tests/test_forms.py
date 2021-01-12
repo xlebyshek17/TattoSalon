@@ -1,7 +1,7 @@
 from django.test import TestCase
 from django.forms import ValidationError
 from django.contrib.auth.models import User
-from shop.forms import LoginForm, RegistrationForm
+from TattooSalon.salon.forms import LoginForm, RegistrationForm
 
 
 class TestForms(TestCase):

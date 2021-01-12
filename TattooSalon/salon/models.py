@@ -76,6 +76,7 @@ class Cart(models.Model):
     def add_to_cart(self, order_slug):
         cart = self
         order = Order.objects.get(slug=order_slug)
+        #new_item, _ = CartItem.objects.get_or_create(order=order)
         new_item, _ = CartItem.objects.get_or_create(order=order, item_total=order.price)
 
         if new_item not in cart.items.all():
@@ -92,15 +93,16 @@ class Cart(models.Model):
                 cart.save()
         return
 
-    def change_qty(self, qty, item_id):
+    #def change_qty(self, qty, item_id):
+    def change_qty(self, item_id):
         cart = self
         cart_item = CartItem.objects.get(id=int(item_id))
-        cart_item.qty = int(qty)
-        cart_item.item_total = int(qty) * Decimal(cart_item.order.price)
+        #cart_item.qty = int(qty)
+        cart_item.item_total = Decimal(cart_item.order.price)
         cart_item.save()
         new_cart_total = 0.00
         for item in cart.items.all():
-            new_cart_total += float(item.item_total)
+            new_cart_total += float(item.order.price)
         cart.cart_total = new_cart_total
         cart.save()
         return
@@ -133,9 +135,9 @@ class Ord(models.Model):
     first_name = models.CharField(max_length=200)
     last_name = models.CharField(max_length=200)
     phone = models.CharField(max_length=20)
-    #address = models.CharField(max_length=255)
-    buying_type = models.CharField(max_length=40, choices=(('Наличные', 'Карта'),
-                                                           ('Наличные', 'Карта')), default='Наличные')
+    address = models.CharField(max_length=255)
+    buying_type = models.CharField(max_length=40, choices=(('Наличные', 'Наличные'),
+                                                           ('Карта', 'Карта')), default='Наличные')
     date = models.DateTimeField(auto_now_add=True)
     comments = models.TextField(max_length=3000)
     status = models.CharField(max_length=100, choices=ORDER_STATUS_CHOICES, default='Принят в обработку')

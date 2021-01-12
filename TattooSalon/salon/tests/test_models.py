@@ -1,5 +1,5 @@
 from django.test import TestCase
-from shop.models import (
+from TattooSalon.salon.models import (
 Category,
 image_folder,
 Order,
@@ -13,63 +13,57 @@ class TestModels(TestCase):
 
     def setUp(self):
         Category.objects.create(
-            name='Кактусы',
-            slug='cactuses'
+            name='Минимализм',
+            slug='minimalism'
         )
         Category.objects.create(
-            name='Суккуленты',
-            slug='succulents'
+            name='Лайнворк',
+            slug='linework'
         )
         Order.objects.create(
-            category=Category.objects.get(slug='succulents'),
-            title='Хойя Керри',
-            slug='hoya-kerry',
-            description='hoya-kerry',
-            image='hoya-kerry/hoya-kerry.jpg',
-            price=15,
+            category=Category.objects.get(slug='minimalism'),
+            title='Пальмы',
+            slug='palm',
+            description='Отличный выбор для любителей лета круглый год. Время выполнения: 1.5 часа.',
+            image='palm/palm.jpg',
+            price=150,
             available=True
         )
         Order.objects.create(
-            category=Category.objects.get(slug='succulents'),
-            title='Эхеверии',
-            slug='echeverias',
-            description='echeverias',
-            image='echeverias/echeverias.jpg',
-            price=6,
+            category=Category.objects.get(slug='minimalism'),
+            title='Лампочка',
+            slug='lamp',
+            description='a little lamp',
+            image='lamp/lamp.jpg',
+            price=100,
             available=True
         )
         Order.objects.create(
-            category=Category.objects.get(slug='succulents'),
-            title='Тефрокактус Артикулатус',
-            slug='tefrokaktus-artikulatus',
-            description='tefrokaktus-artikulatus',
-            image='tefrokaktus-artikulatus/tefrokaktus-artikulatus.jpg',
-            price=17,
+            category=Category.objects.get(slug='linework'),
+            title='Сова',
+            slug='owl',
+            description='Время выполнения: 3 часа',
+            image='owl/owl.jpg',
+            price=180,
             available=True
         )
         Order.objects.create(
-            category=Category.objects.get(slug='succulents'),
-            title='Агава Потаторум',
-            slug='agabus-potatorum',
-            description='agabus-potatorum',
-            image='agabus-potatorum/agabus-potatorum.jpg',
-            price=15,
+            category=Category.objects.get(slug='linework'),
+            title='Статуя свободы',
+            slug='liberty',
+            description='Время выполнения: 2 часов Количество сеансов: 2',
+            image='liberty/liberty.jpg',
+            price=200,
             available=True
         )
         CartItem.objects.create(
             order=Order.objects.get(id=1),
-            qty=1,
-            item_total=15
         )
         CartItem.objects.create(
             order=Order.objects.get(id=1),
-            qty=0,
-            item_total=0
         )
         CartItem.objects.create(
             order=Order.objects.get(id=2),
-            qty=1,
-            item_total=6
         )
         cart = Cart.objects.create(
             cart_total=15
@@ -203,7 +197,7 @@ class TestModels(TestCase):
 
     def test_cart_add_to_cart_add_one_order_expected_2(self):
         cart = Cart.objects.get(id=1)
-        cart.add_to_cart('echeverias')
+        cart.add_to_cart('palm')
         cart.save()
 
         actual = cart.items.count()

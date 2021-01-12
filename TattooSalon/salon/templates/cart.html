@@ -16,11 +16,11 @@
 		{% for item in cart.items.all %}
 			<tr id="{{ item.order.slug }}">
 				<td class='text-center'>{{ item.order.title }}</td>
-				<td class='text-center'>
+				<!--<td class='text-center'>
 					<form action='' method="GET">
 						<input type='number' name='qty' class='cart-item-qty' data-id='{{ item.id }}'  style='width: 50px'>
 					</form>
-				</td>
+				</td>-->
 				<td class='text-center' id='cart-item-total-{{ item.id }}'>{{ item.item_total }} BYN</td>
 				<td class='text-center'><a href='#' class="remove_from_cart" data-slug='{{ item.order.slug }}' data-id='{{ item.order.slug }}'><button class='btn btn-default'>Удалить из корзины</button></a></td>
 			</tr>
@@ -65,25 +65,6 @@ $(document).ready(function(){
 					$('.cart-empty').css('display', 'block')
 					$('.cart-empty').html('<h3 class="text-center">Ваша корзина пуста</h3>')
 				}
-			}
-		})
-	})
-})
-$(document).ready(function(){
-	$('.cart-item-qty').on('click', function(){
-		qty = $(this).val()
-		item_id = $(this).attr('data-id')
-		data = {
-			qty: qty,
-			item_id: item_id
-		}
-		$.ajax({
-			type: "GET",
-			url: '{% url "change_item_qty" %}',
-			data: data,
-			success: function(data){
-				$('#cart-item-total-'+item_id).html(parseFloat(data.item_total).toFixed(2) + ' BYN')
-				$('#cart-total-price').html('<strong>' + parseFloat(data.cart_total_price ).toFixed(2) + ' BYN </strong>')
 			}
 		})
 	})

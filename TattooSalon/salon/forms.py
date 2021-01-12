@@ -59,7 +59,7 @@ class RegistrationForm(forms.ModelForm):
 		username = self.cleaned_data['username']
 		password = self.cleaned_data['password']
 		password_check = self.cleaned_data['password_check']
-		# email = self.cleaned_data['email']
+		email = self.cleaned_data['email']
 
 		if not Validator.check_length(username, 3, 150):
 			raise forms.ValidationError('Неверная длина логина!')
@@ -69,10 +69,10 @@ class RegistrationForm(forms.ModelForm):
 			raise forms.ValidationError('Неверная длина пароля!')
 		if password != password_check:
 			raise forms.ValidationError('Ваши пароли не совпадают! Попробуйте снова.')
-		# if not Validator.check_email(email):
-		# 	raise forms.ValidationError('Неверная почта!')
-		# if User.objects.filter(email=email).exists():
-		# 	raise forms.ValidationError('Пользователь с данным почтовым адресом уже зарегистрирован в системе!')
+		if not Validator.check_email(email):
+			raise forms.ValidationError('Неверная почта!')
+		if User.objects.filter(email=email).exists():
+			raise forms.ValidationError('Пользователь с данным почтовым адресом уже зарегистрирован в системе!')
 
 
 
@@ -84,7 +84,7 @@ class OrdForm(forms.Form):
 	phone = forms.CharField()
 	buying_type = forms.ChoiceField(widget=forms.Select(), choices=([("cash", "Наличные"), ("cart", "Карта")]))
 	date = forms.DateField(widget=forms.SelectDateWidget(), initial=timezone.now())
-	#address = forms.CharField(required=False)
+	address = forms.CharField(required=False)
 	comments = forms.CharField(widget=forms.Textarea, required=False)
 
 	def __init__(self, *args, **kwargs):

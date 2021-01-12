@@ -1,6 +1,5 @@
 import re
 
-
 class Validator:
 
 	@staticmethod
@@ -44,3 +43,11 @@ class Validator:
 		if string is not None and re.match(r"[0-9]", string, flags=re.MULTILINE):
 			result = True
 		return result
+
+	@staticmethod
+	def check_login(string):
+
+		if string is None or re.search("[a-zA-Zа-яА-Я0-9_.@+-]", string) == None:
+			return False
+
+		return True

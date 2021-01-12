@@ -106,7 +106,7 @@ def add_to_cart_view(request):#, order_slug):
 	cart.add_to_cart(order.slug)
 	new_cart_total = 0.00
 	for item in cart.items.all():
-		new_cart_total += float(item.item_total)
+		new_cart_total += float(item.order.price)
 	cart.cart_total = new_cart_total
 	cart.save()
 	return JsonResponse(
@@ -131,7 +131,7 @@ def remove_from_cart_view(request):
 	cart.remove_from_cart(order.slug)
 	new_cart_total = 0.00
 	for item in cart.items.all():
-		new_cart_total += float(item.item_total)
+		new_cart_total += float(item.order.price)
 	cart.cart_total = new_cart_total
 	cart.save()
 	return JsonResponse(
@@ -149,13 +149,14 @@ def change_item_qty(request):
 		cart_id = cart.id
 		request.session['cart_id'] = cart_id
 		cart = Cart.objects.get(id=cart_id)
-	qty = request.GET.get('qty')
+	#qty = request.GET.get('qty')
 	item_id = request.GET.get('item_id')
 	cart_item = CartItem.objects.get(id=int(item_id))
-	cart.change_qty(qty, item_id)
+	cart.change_qty(item_id)
+	#cart.change_qty(qty, item_id)
 	return JsonResponse(
-		{'cart_total': cart.items.count(), 
-		'item_total': cart_item.item_total,
+		{'cart_total': cart.items.count(),
+		'item_total': cart_item.order.price,
 		'cart_total_price': cart.cart_total})
 
 def checkout_view(request):
@@ -214,7 +215,7 @@ def make_order_view(request):
 		last_name = form.cleaned_data['last_name']
 		phone = form.cleaned_data['phone']
 		buying_type = form.cleaned_data['buying_type']
-		#address = form.cleaned_data['address']
+		address = form.cleaned_data['address']
 		comments = form.cleaned_data['comments']
 		new_order = Ord.objects.create(
 				user=request.user,
@@ -223,7 +224,7 @@ def make_order_view(request):
 				first_name=name,
 				last_name=last_name,
 				phone=phone,
-				#address=address,
+				address=address,
 				buying_type=buying_type,
 				comments=comments
 			)
